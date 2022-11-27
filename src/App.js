@@ -5,7 +5,7 @@ const App = () => {
   const backspace = () => {
     try {
       setValue(val.slice(0, -1));
-      // here it removes the last ele but if
+      // here it removes the last ele but if we have the setted value it removes whole ans
     } catch (error) {
       setValue("");
     }
