@@ -1,6 +1,52 @@
 .App {
   text-align: center;
 }
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+input::placeholder{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.title{
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ip{
+  margin-top: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 20px ;
+  border: 2px solid black;
+  text-overflow: ellipsis;
+  background-color: rgb(190, 205, 225);
+
+}
+.container{
+  border: 1px solid black;
+  width: 50%;
+  height: 50%;
+  border-radius: 1rem;
+  background-color: rgb(106, 124, 118);
+
+}
+.btn{
+  font-size: 1rem;
+  margin: 1rem;
+  height: 3rem;
+  width:8rem;
+  box-shadow: 2px 2px 1px;
+  border-radius: 1rem;
+  color: white;
+  background-color: black;
+
+}
+.btn:hover{
+  background-color: rgb(241, 241, 103);
+  color:black;
+}
+
 
 .App-logo {
   height: 40vmin;
